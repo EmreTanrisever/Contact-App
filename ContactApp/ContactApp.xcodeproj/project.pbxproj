@@ -115,9 +115,7 @@
 		8B1881BE2D4C19FC00D2C4EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B1881C12D4C19FC00D2C4EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B1881C32D4C19FC00D2C4EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8B1881C82D4C19FC00D2C4EA /* ContactAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ContactAppTests.xctest; path = "/Users/emretanrisever/Desktop/Contact-App/ContactApp/build/Debug-iphoneos/ContactApp.app/PlugIns/ContactAppTests.xctest"; sourceTree = "<absolute>"; };
 		8B1881CC2D4C19FC00D2C4EA /* ContactAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactAppTests.swift; sourceTree = "<group>"; };
-		8B1881D22D4C19FC00D2C4EA /* ContactAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ContactAppUITests.xctest; path = "/Users/emretanrisever/Desktop/Contact-App/ContactApp/build/Debug-iphoneos/ContactAppUITests-Runner.app/PlugIns/ContactAppUITests.xctest"; sourceTree = "<absolute>"; };
 		8B1881D62D4C19FC00D2C4EA /* ContactAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactAppUITests.swift; sourceTree = "<group>"; };
 		8B1881D82D4C19FC00D2C4EA /* ContactAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8B1882712D4C1AE700D2C4EA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +127,8 @@
 		8B8621DD2D4FAE2900619D84 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
 		8B8621DF2D4FB04900619D84 /* CompanyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyTableViewCell.swift; sourceTree = "<group>"; };
 		8B8621E12D4FB1E700619D84 /* MapTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTableViewCell.swift; sourceTree = "<group>"; };
+		8BBEA8D72D4FD110003C053B /* ContactAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BBEA8D82D4FD110003C053B /* ContactAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BDB4C852D4F8FF900B24EF8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		8BDB4C8E2D4F905A00B24EF8 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		8BFBFD3D2D4FBC9D00A68315 /* ETCNetworkKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ETCNetworkKit.xcodeproj; path = ETCNetworkKit/ETCNetworkKit.xcodeproj; sourceTree = "<group>"; };
@@ -198,6 +198,8 @@
 				8B1881D52D4C19FC00D2C4EA /* ContactAppUITests */,
 				8BFBFD9C2D4FBD1E00A68315 /* Frameworks */,
 				8BFBFD9F2D4FBD1E00A68315 /* ContactApp.app */,
+				8BBEA8D72D4FD110003C053B /* ContactAppTests.xctest */,
+				8BBEA8D82D4FD110003C053B /* ContactAppUITests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -394,7 +396,7 @@
 			);
 			name = ContactAppTests;
 			productName = ContactAppTests;
-			productReference = 8B1881C82D4C19FC00D2C4EA /* ContactAppTests.xctest */;
+			productReference = 8BBEA8D72D4FD110003C053B /* ContactAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		8B1881D12D4C19FC00D2C4EA /* ContactAppUITests */ = {
@@ -412,7 +414,7 @@
 			);
 			name = ContactAppUITests;
 			productName = ContactAppUITests;
-			productReference = 8B1881D22D4C19FC00D2C4EA /* ContactAppUITests.xctest */;
+			productReference = 8BBEA8D82D4FD110003C053B /* ContactAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
