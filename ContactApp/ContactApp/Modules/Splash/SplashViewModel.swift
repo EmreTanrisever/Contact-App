@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import ETCCommonKitUI
+import ETCCommonKit
 
 protocol SplashViewModelProtocol {
     

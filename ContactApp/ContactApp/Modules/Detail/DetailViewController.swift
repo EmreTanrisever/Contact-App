@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import ETCCommonKitUI
+import ETCCommonKit
 
 final class DetailViewController: BaseViewController {
     private lazy var viewModel = DetailViewModel(view: self)

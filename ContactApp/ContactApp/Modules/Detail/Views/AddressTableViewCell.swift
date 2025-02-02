@@ -8,7 +8,7 @@
 import Foundation
 
 import UIKit
-import ETCCommonKitUI
+import ETCCommonKit
 import ETCNetworkKit
 
 final class AddressTableViewCell: UITableViewCell {

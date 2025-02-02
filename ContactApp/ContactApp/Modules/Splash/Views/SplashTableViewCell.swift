@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import ETCCommonKitUI
+import ETCCommonKit
 
 final class SplashTableViewCell: UITableViewCell {
     
