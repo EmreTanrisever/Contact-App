@@ -60,6 +60,20 @@
 			remoteGlobalIDString = 8B5BC62F2D568FB400E8CC7A;
 			remoteInfo = ETCNetworkKitTests;
 		};
+		8B5BC68A2D5692B300E8CC7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B5BC6852D5692B300E8CC7A /* ETCCommonKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B5BC66D2D5692B200E8CC7A;
+			remoteInfo = ETCCommonKit;
+		};
+		8B5BC68C2D5692B300E8CC7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B5BC6852D5692B300E8CC7A /* ETCCommonKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B5BC6752D5692B300E8CC7A;
+			remoteInfo = ETCCommonKitTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -100,6 +114,7 @@
 		8B1881D82D4C19FC00D2C4EA /* ContactAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8B1882712D4C1AE700D2C4EA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8B5BC63F2D568FB400E8CC7A /* ETCNetworkKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ETCNetworkKit.xcodeproj; path = ETCNetworkKit/ETCNetworkKit.xcodeproj; sourceTree = "<group>"; };
+		8B5BC6852D5692B300E8CC7A /* ETCCommonKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ETCCommonKit.xcodeproj; path = ETCCommonKit/ETCCommonKit.xcodeproj; sourceTree = "<group>"; };
 		8B82CF342D4F8E3C00969218 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		8B82CF3C2D4F8E5400969218 /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
 		8B82CF3F2D4F8E6E00969218 /* SplashTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashTableViewCell.swift; sourceTree = "<group>"; };
@@ -168,6 +183,7 @@
 		8B1881A92D4C19F900D2C4EA = {
 			isa = PBXGroup;
 			children = (
+				8B5BC6852D5692B300E8CC7A /* ETCCommonKit.xcodeproj */,
 				8B5BC63F2D568FB400E8CC7A /* ETCNetworkKit.xcodeproj */,
 				8B1881B42D4C19F900D2C4EA /* ContactApp */,
 				8B1881CB2D4C19FC00D2C4EA /* ContactAppTests */,
@@ -299,6 +315,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		8B5BC6862D5692B300E8CC7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B5BC68B2D5692B300E8CC7A /* ETCCommonKit.framework */,
+				8B5BC68D2D5692B300E8CC7A /* ETCCommonKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		8B82CF3E2D4F8E6300969218 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -420,6 +445,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 8B5BC6862D5692B300E8CC7A /* Products */;
+					ProjectRef = 8B5BC6852D5692B300E8CC7A /* ETCCommonKit.xcodeproj */;
+				},
+				{
 					ProductGroup = 8B5BC6402D568FB400E8CC7A /* Products */;
 					ProjectRef = 8B5BC63F2D568FB400E8CC7A /* ETCNetworkKit.xcodeproj */;
 				},
@@ -446,6 +475,20 @@
 			fileType = wrapper.cfbundle;
 			path = ETCNetworkKitTests.xctest;
 			remoteRef = 8B5BC6462D568FB500E8CC7A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8B5BC68B2D5692B300E8CC7A /* ETCCommonKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ETCCommonKit.framework;
+			remoteRef = 8B5BC68A2D5692B300E8CC7A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8B5BC68D2D5692B300E8CC7A /* ETCCommonKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ETCCommonKitTests.xctest;
+			remoteRef = 8B5BC68C2D5692B300E8CC7A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
