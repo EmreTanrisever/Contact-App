@@ -11,6 +11,10 @@
 		8B5BC6352D568FB400E8CC7A /* ETCNetworkKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BC6342D568FB400E8CC7A /* ETCNetworkKitTests.swift */; };
 		8B5BC6362D568FB400E8CC7A /* ETCNetworkKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5BC62A2D568FB400E8CC7A /* ETCNetworkKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B5BC64A2D568FD400E8CC7A /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BC6492D568FD400E8CC7A /* APIClient.swift */; };
+		8B5BC64E2D56902100E8CC7A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BC64D2D56902100E8CC7A /* User.swift */; };
+		8B5BC6502D56909100E8CC7A /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BC64F2D56909100E8CC7A /* Company.swift */; };
+		8B5BC6532D5690A500E8CC7A /* Geo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BC6522D5690A500E8CC7A /* Geo.swift */; };
+		8B5BC6552D56917B00E8CC7A /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BC6542D56917B00E8CC7A /* Address.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,10 @@
 		8B5BC62F2D568FB400E8CC7A /* ETCNetworkKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ETCNetworkKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B5BC6342D568FB400E8CC7A /* ETCNetworkKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETCNetworkKitTests.swift; sourceTree = "<group>"; };
 		8B5BC6492D568FD400E8CC7A /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		8B5BC64D2D56902100E8CC7A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8B5BC64F2D56909100E8CC7A /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		8B5BC6522D5690A500E8CC7A /* Geo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geo.swift; sourceTree = "<group>"; };
+		8B5BC6542D56917B00E8CC7A /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +79,7 @@
 		8B5BC6292D568FB400E8CC7A /* ETCNetworkKit */ = {
 			isa = PBXGroup;
 			children = (
+				8B5BC64C2D56901A00E8CC7A /* Model */,
 				8B5BC6482D568FC000E8CC7A /* Base */,
 				8B5BC62A2D568FB400E8CC7A /* ETCNetworkKit.h */,
 			);
@@ -91,6 +100,17 @@
 				8B5BC6492D568FD400E8CC7A /* APIClient.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		8B5BC64C2D56901A00E8CC7A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B5BC64D2D56902100E8CC7A /* User.swift */,
+				8B5BC64F2D56909100E8CC7A /* Company.swift */,
+				8B5BC6522D5690A500E8CC7A /* Geo.swift */,
+				8B5BC6542D56917B00E8CC7A /* Address.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,7 +223,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B5BC64E2D56902100E8CC7A /* User.swift in Sources */,
 				8B5BC64A2D568FD400E8CC7A /* APIClient.swift in Sources */,
+				8B5BC6502D56909100E8CC7A /* Company.swift in Sources */,
+				8B5BC6532D5690A500E8CC7A /* Geo.swift in Sources */,
+				8B5BC6552D56917B00E8CC7A /* Address.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
