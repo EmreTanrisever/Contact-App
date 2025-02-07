@@ -29,10 +29,6 @@
 		8B8621E22D4FB1E700619D84 /* MapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8621E12D4FB1E700619D84 /* MapTableViewCell.swift */; };
 		8BDB4C862D4F8FF900B24EF8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDB4C852D4F8FF900B24EF8 /* DetailViewController.swift */; };
 		8BDB4C8F2D4F905A00B24EF8 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDB4C8E2D4F905A00B24EF8 /* DetailViewModel.swift */; };
-		8BFBFD9D2D4FBD1E00A68315 /* ETCCommonKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BFBFD8B2D4FBCDB00A68315 /* ETCCommonKit.framework */; };
-		8BFBFD9E2D4FBD1E00A68315 /* ETCCommonKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8BFBFD8B2D4FBCDB00A68315 /* ETCCommonKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		8BFBFDA02D4FBD1E00A68315 /* ETCNetworkKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BFBFD432D4FBC9E00A68315 /* ETCNetworkKit.framework */; };
-		8BFBFDA12D4FBD1E00A68315 /* ETCNetworkKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8BFBFD432D4FBC9E00A68315 /* ETCNetworkKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,33 +46,19 @@
 			remoteGlobalIDString = 8B1881B12D4C19F900D2C4EA;
 			remoteInfo = ContactApp;
 		};
-		8BFBFD422D4FBC9E00A68315 /* PBXContainerItemProxy */ = {
+		8B5BC6442D568FB500E8CC7A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8BFBFD3D2D4FBC9D00A68315 /* ETCNetworkKit.xcodeproj */;
+			containerPortal = 8B5BC63F2D568FB400E8CC7A /* ETCNetworkKit.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 8BFBFD252D4FBC9D00A68315;
+			remoteGlobalIDString = 8B5BC6272D568FB400E8CC7A;
 			remoteInfo = ETCNetworkKit;
 		};
-		8BFBFD442D4FBC9E00A68315 /* PBXContainerItemProxy */ = {
+		8B5BC6462D568FB500E8CC7A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8BFBFD3D2D4FBC9D00A68315 /* ETCNetworkKit.xcodeproj */;
+			containerPortal = 8B5BC63F2D568FB400E8CC7A /* ETCNetworkKit.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 8BFBFD2D2D4FBC9D00A68315;
+			remoteGlobalIDString = 8B5BC62F2D568FB400E8CC7A;
 			remoteInfo = ETCNetworkKitTests;
-		};
-		8BFBFD8A2D4FBCDB00A68315 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8BFBFD852D4FBCDB00A68315 /* ETCCommonKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8BFBFD6D2D4FBCDA00A68315;
-			remoteInfo = ETCCommonKit;
-		};
-		8BFBFD8C2D4FBCDB00A68315 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8BFBFD852D4FBCDB00A68315 /* ETCCommonKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8BFBFD752D4FBCDB00A68315;
-			remoteInfo = ETCCommonKitTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -97,8 +79,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				8BFBFD9E2D4FBD1E00A68315 /* ETCCommonKit.framework in Embed Frameworks */,
-				8BFBFDA12D4FBD1E00A68315 /* ETCNetworkKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -119,6 +99,7 @@
 		8B1881D62D4C19FC00D2C4EA /* ContactAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactAppUITests.swift; sourceTree = "<group>"; };
 		8B1881D82D4C19FC00D2C4EA /* ContactAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8B1882712D4C1AE700D2C4EA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8B5BC63F2D568FB400E8CC7A /* ETCNetworkKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ETCNetworkKit.xcodeproj; path = ETCNetworkKit/ETCNetworkKit.xcodeproj; sourceTree = "<group>"; };
 		8B82CF342D4F8E3C00969218 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		8B82CF3C2D4F8E5400969218 /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
 		8B82CF3F2D4F8E6E00969218 /* SplashTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashTableViewCell.swift; sourceTree = "<group>"; };
@@ -131,8 +112,6 @@
 		8BBEA8D82D4FD110003C053B /* ContactAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BDB4C852D4F8FF900B24EF8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		8BDB4C8E2D4F905A00B24EF8 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
-		8BFBFD3D2D4FBC9D00A68315 /* ETCNetworkKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ETCNetworkKit.xcodeproj; path = ETCNetworkKit/ETCNetworkKit.xcodeproj; sourceTree = "<group>"; };
-		8BFBFD852D4FBCDB00A68315 /* ETCCommonKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ETCCommonKit.xcodeproj; path = ETCCommonKit/ETCCommonKit.xcodeproj; sourceTree = "<group>"; };
 		8BFBFD9F2D4FBD1E00A68315 /* ContactApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -141,8 +120,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BFBFD9D2D4FBD1E00A68315 /* ETCCommonKit.framework in Frameworks */,
-				8BFBFDA02D4FBD1E00A68315 /* ETCNetworkKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,8 +168,7 @@
 		8B1881A92D4C19F900D2C4EA = {
 			isa = PBXGroup;
 			children = (
-				8BFBFD852D4FBCDB00A68315 /* ETCCommonKit.xcodeproj */,
-				8BFBFD3D2D4FBC9D00A68315 /* ETCNetworkKit.xcodeproj */,
+				8B5BC63F2D568FB400E8CC7A /* ETCNetworkKit.xcodeproj */,
 				8B1881B42D4C19F900D2C4EA /* ContactApp */,
 				8B1881CB2D4C19FC00D2C4EA /* ContactAppTests */,
 				8B1881D52D4C19FC00D2C4EA /* ContactAppUITests */,
@@ -314,6 +290,15 @@
 			path = Detail;
 			sourceTree = "<group>";
 		};
+		8B5BC6402D568FB400E8CC7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B5BC6452D568FB500E8CC7A /* ETCNetworkKit.framework */,
+				8B5BC6472D568FB500E8CC7A /* ETCNetworkKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		8B82CF3E2D4F8E6300969218 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -332,24 +317,6 @@
 				8B8621E12D4FB1E700619D84 /* MapTableViewCell.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		8BFBFD3E2D4FBC9D00A68315 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8BFBFD432D4FBC9E00A68315 /* ETCNetworkKit.framework */,
-				8BFBFD452D4FBC9E00A68315 /* ETCNetworkKitTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		8BFBFD862D4FBCDB00A68315 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8BFBFD8B2D4FBCDB00A68315 /* ETCCommonKit.framework */,
-				8BFBFD8D2D4FBCDB00A68315 /* ETCCommonKitTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		8BFBFD9C2D4FBD1E00A68315 /* Frameworks */ = {
@@ -453,12 +420,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 8BFBFD862D4FBCDB00A68315 /* Products */;
-					ProjectRef = 8BFBFD852D4FBCDB00A68315 /* ETCCommonKit.xcodeproj */;
-				},
-				{
-					ProductGroup = 8BFBFD3E2D4FBC9D00A68315 /* Products */;
-					ProjectRef = 8BFBFD3D2D4FBC9D00A68315 /* ETCNetworkKit.xcodeproj */;
+					ProductGroup = 8B5BC6402D568FB400E8CC7A /* Products */;
+					ProjectRef = 8B5BC63F2D568FB400E8CC7A /* ETCNetworkKit.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -471,32 +434,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		8BFBFD432D4FBC9E00A68315 /* ETCNetworkKit.framework */ = {
+		8B5BC6452D568FB500E8CC7A /* ETCNetworkKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = ETCNetworkKit.framework;
-			remoteRef = 8BFBFD422D4FBC9E00A68315 /* PBXContainerItemProxy */;
+			remoteRef = 8B5BC6442D568FB500E8CC7A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		8BFBFD452D4FBC9E00A68315 /* ETCNetworkKitTests.xctest */ = {
+		8B5BC6472D568FB500E8CC7A /* ETCNetworkKitTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = ETCNetworkKitTests.xctest;
-			remoteRef = 8BFBFD442D4FBC9E00A68315 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8BFBFD8B2D4FBCDB00A68315 /* ETCCommonKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ETCCommonKit.framework;
-			remoteRef = 8BFBFD8A2D4FBCDB00A68315 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8BFBFD8D2D4FBCDB00A68315 /* ETCCommonKitTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ETCCommonKitTests.xctest;
-			remoteRef = 8BFBFD8C2D4FBCDB00A68315 /* PBXContainerItemProxy */;
+			remoteRef = 8B5BC6462D568FB500E8CC7A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

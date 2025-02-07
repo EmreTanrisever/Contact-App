@@ -7,193 +7,114 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8BFBFD2E2D4FBC9D00A68315 /* ETCNetworkKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BFBFD252D4FBC9D00A68315 /* ETCNetworkKit.framework */; };
-		8BFBFD332D4FBC9D00A68315 /* ETCNetworkKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBFD322D4FBC9D00A68315 /* ETCNetworkKitTests.swift */; };
-		8BFBFD582D4FBCBE00A68315 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBFD462D4FBCBE00A68315 /* APIClient.swift */; };
-		8BFBFD592D4FBCBE00A68315 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBFD482D4FBCBE00A68315 /* Address.swift */; };
-		8BFBFD5A2D4FBCBE00A68315 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBFD492D4FBCBE00A68315 /* Company.swift */; };
-		8BFBFD5B2D4FBCBE00A68315 /* Geo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBFD4A2D4FBCBE00A68315 /* Geo.swift */; };
-		8BFBFD5C2D4FBCBE00A68315 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBFD4B2D4FBCBE00A68315 /* User.swift */; };
-		8BFBFD5D2D4FBCBE00A68315 /* ETCNetworkKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BFBFD4D2D4FBCBE00A68315 /* ETCNetworkKit.h */; };
-		8BFBFD5E2D4FBCBE00A68315 /* UserEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBFD4E2D4FBCBE00A68315 /* UserEndPoint.swift */; };
-		8BFBFD5F2D4FBCBE00A68315 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBFD4F2D4FBCBE00A68315 /* UserService.swift */; };
-		8BFBFD602D4FBCBE00A68315 /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBFD522D4FBCBE00A68315 /* HttpMethod.swift */; };
-		8BFBFD612D4FBCBE00A68315 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBFD532D4FBCBE00A68315 /* NetworkError.swift */; };
-		8BFBFD622D4FBCBE00A68315 /* EndPointProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBFD552D4FBCBE00A68315 /* EndPointProtocol.swift */; };
+		8B5BC6302D568FB400E8CC7A /* ETCNetworkKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B5BC6272D568FB400E8CC7A /* ETCNetworkKit.framework */; };
+		8B5BC6352D568FB400E8CC7A /* ETCNetworkKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BC6342D568FB400E8CC7A /* ETCNetworkKitTests.swift */; };
+		8B5BC6362D568FB400E8CC7A /* ETCNetworkKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5BC62A2D568FB400E8CC7A /* ETCNetworkKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B5BC64A2D568FD400E8CC7A /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BC6492D568FD400E8CC7A /* APIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8BFBFD2F2D4FBC9D00A68315 /* PBXContainerItemProxy */ = {
+		8B5BC6312D568FB400E8CC7A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8BFBFD1C2D4FBC9D00A68315 /* Project object */;
+			containerPortal = 8B5BC61E2D568FB400E8CC7A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8BFBFD242D4FBC9D00A68315;
+			remoteGlobalIDString = 8B5BC6262D568FB400E8CC7A;
 			remoteInfo = ETCNetworkKit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8BFBFD252D4FBC9D00A68315 /* ETCNetworkKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ETCNetworkKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BFBFD2D2D4FBC9D00A68315 /* ETCNetworkKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ETCNetworkKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BFBFD322D4FBC9D00A68315 /* ETCNetworkKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETCNetworkKitTests.swift; sourceTree = "<group>"; };
-		8BFBFD462D4FBCBE00A68315 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
-		8BFBFD482D4FBCBE00A68315 /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
-		8BFBFD492D4FBCBE00A68315 /* Company.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
-		8BFBFD4A2D4FBCBE00A68315 /* Geo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geo.swift; sourceTree = "<group>"; };
-		8BFBFD4B2D4FBCBE00A68315 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		8BFBFD4D2D4FBCBE00A68315 /* ETCNetworkKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ETCNetworkKit.h; path = "../../../../Basvurular/Contact-App 17.42.34/ContactApp/ETCNetworkKit/ETCNetworkKit/ETCNetworkKit.h"; sourceTree = "<group>"; };
-		8BFBFD4E2D4FBCBE00A68315 /* UserEndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserEndPoint.swift; sourceTree = "<group>"; };
-		8BFBFD4F2D4FBCBE00A68315 /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
-		8BFBFD522D4FBCBE00A68315 /* HttpMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
-		8BFBFD532D4FBCBE00A68315 /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
-		8BFBFD552D4FBCBE00A68315 /* EndPointProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPointProtocol.swift; sourceTree = "<group>"; };
+		8B5BC6272D568FB400E8CC7A /* ETCNetworkKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ETCNetworkKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B5BC62A2D568FB400E8CC7A /* ETCNetworkKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETCNetworkKit.h; sourceTree = "<group>"; };
+		8B5BC62F2D568FB400E8CC7A /* ETCNetworkKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ETCNetworkKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B5BC6342D568FB400E8CC7A /* ETCNetworkKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETCNetworkKitTests.swift; sourceTree = "<group>"; };
+		8B5BC6492D568FD400E8CC7A /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8BFBFD222D4FBC9D00A68315 /* Frameworks */ = {
+		8B5BC6242D568FB400E8CC7A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8BFBFD2A2D4FBC9D00A68315 /* Frameworks */ = {
+		8B5BC62C2D568FB400E8CC7A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BFBFD2E2D4FBC9D00A68315 /* ETCNetworkKit.framework in Frameworks */,
+				8B5BC6302D568FB400E8CC7A /* ETCNetworkKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8BFBFD1B2D4FBC9D00A68315 = {
+		8B5BC61D2D568FB400E8CC7A = {
 			isa = PBXGroup;
 			children = (
-				8BFBFD272D4FBC9D00A68315 /* ETCNetworkKit */,
-				8BFBFD312D4FBC9D00A68315 /* ETCNetworkKitTests */,
-				8BFBFD262D4FBC9D00A68315 /* Products */,
+				8B5BC6292D568FB400E8CC7A /* ETCNetworkKit */,
+				8B5BC6332D568FB400E8CC7A /* ETCNetworkKitTests */,
+				8B5BC6282D568FB400E8CC7A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8BFBFD262D4FBC9D00A68315 /* Products */ = {
+		8B5BC6282D568FB400E8CC7A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8BFBFD252D4FBC9D00A68315 /* ETCNetworkKit.framework */,
-				8BFBFD2D2D4FBC9D00A68315 /* ETCNetworkKitTests.xctest */,
+				8B5BC6272D568FB400E8CC7A /* ETCNetworkKit.framework */,
+				8B5BC62F2D568FB400E8CC7A /* ETCNetworkKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8BFBFD272D4FBC9D00A68315 /* ETCNetworkKit */ = {
+		8B5BC6292D568FB400E8CC7A /* ETCNetworkKit */ = {
 			isa = PBXGroup;
 			children = (
-				8BFBFD472D4FBCBE00A68315 /* Base */,
-				8BFBFD4D2D4FBCBE00A68315 /* ETCNetworkKit.h */,
-				8BFBFD4C2D4FBCBE00A68315 /* Models */,
-				8BFBFD512D4FBCBE00A68315 /* Services */,
-				8BFBFD572D4FBCBE00A68315 /* Utilities */,
+				8B5BC6482D568FC000E8CC7A /* Base */,
+				8B5BC62A2D568FB400E8CC7A /* ETCNetworkKit.h */,
 			);
 			path = ETCNetworkKit;
 			sourceTree = "<group>";
 		};
-		8BFBFD312D4FBC9D00A68315 /* ETCNetworkKitTests */ = {
+		8B5BC6332D568FB400E8CC7A /* ETCNetworkKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				8BFBFD322D4FBC9D00A68315 /* ETCNetworkKitTests.swift */,
+				8B5BC6342D568FB400E8CC7A /* ETCNetworkKitTests.swift */,
 			);
 			path = ETCNetworkKitTests;
 			sourceTree = "<group>";
 		};
-		8BFBFD472D4FBCBE00A68315 /* Base */ = {
+		8B5BC6482D568FC000E8CC7A /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				8BFBFD462D4FBCBE00A68315 /* APIClient.swift */,
+				8B5BC6492D568FD400E8CC7A /* APIClient.swift */,
 			);
-			name = Base;
-			path = "../../../../Basvurular/Contact-App 17.42.34/ContactApp/ETCNetworkKit/ETCNetworkKit/Base";
-			sourceTree = "<group>";
-		};
-		8BFBFD4C2D4FBCBE00A68315 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				8BFBFD482D4FBCBE00A68315 /* Address.swift */,
-				8BFBFD492D4FBCBE00A68315 /* Company.swift */,
-				8BFBFD4A2D4FBCBE00A68315 /* Geo.swift */,
-				8BFBFD4B2D4FBCBE00A68315 /* User.swift */,
-			);
-			name = Models;
-			path = "../../../../Basvurular/Contact-App 17.42.34/ContactApp/ETCNetworkKit/ETCNetworkKit/Models";
-			sourceTree = "<group>";
-		};
-		8BFBFD502D4FBCBE00A68315 /* User */ = {
-			isa = PBXGroup;
-			children = (
-				8BFBFD4E2D4FBCBE00A68315 /* UserEndPoint.swift */,
-				8BFBFD4F2D4FBCBE00A68315 /* UserService.swift */,
-			);
-			path = User;
-			sourceTree = "<group>";
-		};
-		8BFBFD512D4FBCBE00A68315 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				8BFBFD502D4FBCBE00A68315 /* User */,
-			);
-			name = Services;
-			path = "../../../../Basvurular/Contact-App 17.42.34/ContactApp/ETCNetworkKit/ETCNetworkKit/Services";
-			sourceTree = "<group>";
-		};
-		8BFBFD542D4FBCBE00A68315 /* Enums */ = {
-			isa = PBXGroup;
-			children = (
-				8BFBFD522D4FBCBE00A68315 /* HttpMethod.swift */,
-				8BFBFD532D4FBCBE00A68315 /* NetworkError.swift */,
-			);
-			path = Enums;
-			sourceTree = "<group>";
-		};
-		8BFBFD562D4FBCBE00A68315 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				8BFBFD552D4FBCBE00A68315 /* EndPointProtocol.swift */,
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
-		8BFBFD572D4FBCBE00A68315 /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				8BFBFD542D4FBCBE00A68315 /* Enums */,
-				8BFBFD562D4FBCBE00A68315 /* Protocols */,
-			);
-			name = Utilities;
-			path = "../../../../Basvurular/Contact-App 17.42.34/ContactApp/ETCNetworkKit/ETCNetworkKit/Utilities";
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8BFBFD202D4FBC9D00A68315 /* Headers */ = {
+		8B5BC6222D568FB400E8CC7A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BFBFD5D2D4FBCBE00A68315 /* ETCNetworkKit.h in Headers */,
+				8B5BC6362D568FB400E8CC7A /* ETCNetworkKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8BFBFD242D4FBC9D00A68315 /* ETCNetworkKit */ = {
+		8B5BC6262D568FB400E8CC7A /* ETCNetworkKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8BFBFD372D4FBC9D00A68315 /* Build configuration list for PBXNativeTarget "ETCNetworkKit" */;
+			buildConfigurationList = 8B5BC6392D568FB400E8CC7A /* Build configuration list for PBXNativeTarget "ETCNetworkKit" */;
 			buildPhases = (
-				8BFBFD202D4FBC9D00A68315 /* Headers */,
-				8BFBFD212D4FBC9D00A68315 /* Sources */,
-				8BFBFD222D4FBC9D00A68315 /* Frameworks */,
-				8BFBFD232D4FBC9D00A68315 /* Resources */,
+				8B5BC6222D568FB400E8CC7A /* Headers */,
+				8B5BC6232D568FB400E8CC7A /* Sources */,
+				8B5BC6242D568FB400E8CC7A /* Frameworks */,
+				8B5BC6252D568FB400E8CC7A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -201,46 +122,47 @@
 			);
 			name = ETCNetworkKit;
 			productName = ETCNetworkKit;
-			productReference = 8BFBFD252D4FBC9D00A68315 /* ETCNetworkKit.framework */;
+			productReference = 8B5BC6272D568FB400E8CC7A /* ETCNetworkKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8BFBFD2C2D4FBC9D00A68315 /* ETCNetworkKitTests */ = {
+		8B5BC62E2D568FB400E8CC7A /* ETCNetworkKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8BFBFD3A2D4FBC9D00A68315 /* Build configuration list for PBXNativeTarget "ETCNetworkKitTests" */;
+			buildConfigurationList = 8B5BC63C2D568FB400E8CC7A /* Build configuration list for PBXNativeTarget "ETCNetworkKitTests" */;
 			buildPhases = (
-				8BFBFD292D4FBC9D00A68315 /* Sources */,
-				8BFBFD2A2D4FBC9D00A68315 /* Frameworks */,
-				8BFBFD2B2D4FBC9D00A68315 /* Resources */,
+				8B5BC62B2D568FB400E8CC7A /* Sources */,
+				8B5BC62C2D568FB400E8CC7A /* Frameworks */,
+				8B5BC62D2D568FB400E8CC7A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8BFBFD302D4FBC9D00A68315 /* PBXTargetDependency */,
+				8B5BC6322D568FB400E8CC7A /* PBXTargetDependency */,
 			);
 			name = ETCNetworkKitTests;
 			productName = ETCNetworkKitTests;
-			productReference = 8BFBFD2D2D4FBC9D00A68315 /* ETCNetworkKitTests.xctest */;
+			productReference = 8B5BC62F2D568FB400E8CC7A /* ETCNetworkKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8BFBFD1C2D4FBC9D00A68315 /* Project object */ = {
+		8B5BC61E2D568FB400E8CC7A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					8BFBFD242D4FBC9D00A68315 = {
+					8B5BC6262D568FB400E8CC7A = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
 					};
-					8BFBFD2C2D4FBC9D00A68315 = {
+					8B5BC62E2D568FB400E8CC7A = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
-			buildConfigurationList = 8BFBFD1F2D4FBC9D00A68315 /* Build configuration list for PBXProject "ETCNetworkKit" */;
+			buildConfigurationList = 8B5BC6212D568FB400E8CC7A /* Build configuration list for PBXProject "ETCNetworkKit" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -248,26 +170,26 @@
 				en,
 				Base,
 			);
-			mainGroup = 8BFBFD1B2D4FBC9D00A68315;
-			productRefGroup = 8BFBFD262D4FBC9D00A68315 /* Products */;
+			mainGroup = 8B5BC61D2D568FB400E8CC7A;
+			productRefGroup = 8B5BC6282D568FB400E8CC7A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8BFBFD242D4FBC9D00A68315 /* ETCNetworkKit */,
-				8BFBFD2C2D4FBC9D00A68315 /* ETCNetworkKitTests */,
+				8B5BC6262D568FB400E8CC7A /* ETCNetworkKit */,
+				8B5BC62E2D568FB400E8CC7A /* ETCNetworkKitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8BFBFD232D4FBC9D00A68315 /* Resources */ = {
+		8B5BC6252D568FB400E8CC7A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8BFBFD2B2D4FBC9D00A68315 /* Resources */ = {
+		8B5BC62D2D568FB400E8CC7A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -277,43 +199,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8BFBFD212D4FBC9D00A68315 /* Sources */ = {
+		8B5BC6232D568FB400E8CC7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BFBFD5F2D4FBCBE00A68315 /* UserService.swift in Sources */,
-				8BFBFD592D4FBCBE00A68315 /* Address.swift in Sources */,
-				8BFBFD622D4FBCBE00A68315 /* EndPointProtocol.swift in Sources */,
-				8BFBFD582D4FBCBE00A68315 /* APIClient.swift in Sources */,
-				8BFBFD5A2D4FBCBE00A68315 /* Company.swift in Sources */,
-				8BFBFD602D4FBCBE00A68315 /* HttpMethod.swift in Sources */,
-				8BFBFD5E2D4FBCBE00A68315 /* UserEndPoint.swift in Sources */,
-				8BFBFD612D4FBCBE00A68315 /* NetworkError.swift in Sources */,
-				8BFBFD5C2D4FBCBE00A68315 /* User.swift in Sources */,
-				8BFBFD5B2D4FBCBE00A68315 /* Geo.swift in Sources */,
+				8B5BC64A2D568FD400E8CC7A /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8BFBFD292D4FBC9D00A68315 /* Sources */ = {
+		8B5BC62B2D568FB400E8CC7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BFBFD332D4FBC9D00A68315 /* ETCNetworkKitTests.swift in Sources */,
+				8B5BC6352D568FB400E8CC7A /* ETCNetworkKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8BFBFD302D4FBC9D00A68315 /* PBXTargetDependency */ = {
+		8B5BC6322D568FB400E8CC7A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8BFBFD242D4FBC9D00A68315 /* ETCNetworkKit */;
-			targetProxy = 8BFBFD2F2D4FBC9D00A68315 /* PBXContainerItemProxy */;
+			target = 8B5BC6262D568FB400E8CC7A /* ETCNetworkKit */;
+			targetProxy = 8B5BC6312D568FB400E8CC7A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		8BFBFD352D4FBC9D00A68315 /* Debug */ = {
+		8B5BC6372D568FB400E8CC7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -379,7 +292,7 @@
 			};
 			name = Debug;
 		};
-		8BFBFD362D4FBC9D00A68315 /* Release */ = {
+		8B5BC6382D568FB400E8CC7A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -438,10 +351,11 @@
 			};
 			name = Release;
 		};
-		8BFBFD382D4FBC9D00A68315 /* Debug */ = {
+		8B5BC63A2D568FB400E8CC7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -466,15 +380,17 @@
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		8BFBFD392D4FBC9D00A68315 /* Release */ = {
+		8B5BC63B2D568FB400E8CC7A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -504,7 +420,7 @@
 			};
 			name = Release;
 		};
-		8BFBFD3B2D4FBC9D00A68315 /* Debug */ = {
+		8B5BC63D2D568FB400E8CC7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -521,7 +437,7 @@
 			};
 			name = Debug;
 		};
-		8BFBFD3C2D4FBC9D00A68315 /* Release */ = {
+		8B5BC63E2D568FB400E8CC7A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -541,34 +457,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8BFBFD1F2D4FBC9D00A68315 /* Build configuration list for PBXProject "ETCNetworkKit" */ = {
+		8B5BC6212D568FB400E8CC7A /* Build configuration list for PBXProject "ETCNetworkKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8BFBFD352D4FBC9D00A68315 /* Debug */,
-				8BFBFD362D4FBC9D00A68315 /* Release */,
+				8B5BC6372D568FB400E8CC7A /* Debug */,
+				8B5BC6382D568FB400E8CC7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8BFBFD372D4FBC9D00A68315 /* Build configuration list for PBXNativeTarget "ETCNetworkKit" */ = {
+		8B5BC6392D568FB400E8CC7A /* Build configuration list for PBXNativeTarget "ETCNetworkKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8BFBFD382D4FBC9D00A68315 /* Debug */,
-				8BFBFD392D4FBC9D00A68315 /* Release */,
+				8B5BC63A2D568FB400E8CC7A /* Debug */,
+				8B5BC63B2D568FB400E8CC7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8BFBFD3A2D4FBC9D00A68315 /* Build configuration list for PBXNativeTarget "ETCNetworkKitTests" */ = {
+		8B5BC63C2D568FB400E8CC7A /* Build configuration list for PBXNativeTarget "ETCNetworkKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8BFBFD3B2D4FBC9D00A68315 /* Debug */,
-				8BFBFD3C2D4FBC9D00A68315 /* Release */,
+				8B5BC63D2D568FB400E8CC7A /* Debug */,
+				8B5BC63E2D568FB400E8CC7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8BFBFD1C2D4FBC9D00A68315 /* Project object */;
+	rootObject = 8B5BC61E2D568FB400E8CC7A /* Project object */;
 }
