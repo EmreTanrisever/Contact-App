@@ -12,6 +12,9 @@
 		8B5BC67C2D5692B300E8CC7A /* ETCCommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5BC6702D5692B200E8CC7A /* ETCCommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B5BC6932D56934100E8CC7A /* Navigationable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BC6922D56934100E8CC7A /* Navigationable.swift */; };
 		8B5BC6952D56936B00E8CC7A /* RowData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BC6942D56936B00E8CC7A /* RowData.swift */; };
+		8B5BC6972D56939300E8CC7A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BC6962D56939300E8CC7A /* BaseViewController.swift */; };
+		8B5BC6992D5693A400E8CC7A /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BC6982D5693A400E8CC7A /* BaseViewModel.swift */; };
+		8B5BC69B2D5693C300E8CC7A /* BaseTableViewCellConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BC69A2D5693C300E8CC7A /* BaseTableViewCellConfigurable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +34,9 @@
 		8B5BC67A2D5692B300E8CC7A /* ETCCommonKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETCCommonKitTests.swift; sourceTree = "<group>"; };
 		8B5BC6922D56934100E8CC7A /* Navigationable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigationable.swift; sourceTree = "<group>"; };
 		8B5BC6942D56936B00E8CC7A /* RowData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowData.swift; sourceTree = "<group>"; };
+		8B5BC6962D56939300E8CC7A /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		8B5BC6982D5693A400E8CC7A /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		8B5BC69A2D5693C300E8CC7A /* BaseTableViewCellConfigurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCellConfigurable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,8 @@
 		8B5BC68E2D56932500E8CC7A /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				8B5BC6962D56939300E8CC7A /* BaseViewController.swift */,
+				8B5BC6982D5693A400E8CC7A /* BaseViewModel.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -116,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				8B5BC6922D56934100E8CC7A /* Navigationable.swift */,
+				8B5BC69A2D5693C300E8CC7A /* BaseTableViewCellConfigurable.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -230,8 +239,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B5BC69B2D5693C300E8CC7A /* BaseTableViewCellConfigurable.swift in Sources */,
 				8B5BC6952D56936B00E8CC7A /* RowData.swift in Sources */,
+				8B5BC6992D5693A400E8CC7A /* BaseViewModel.swift in Sources */,
 				8B5BC6932D56934100E8CC7A /* Navigationable.swift in Sources */,
+				8B5BC6972D56939300E8CC7A /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
