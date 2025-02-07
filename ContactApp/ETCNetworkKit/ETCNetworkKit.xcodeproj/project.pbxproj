@@ -19,6 +19,7 @@
 		8B5BC65C2D5691E700E8CC7A /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BC65B2D5691E700E8CC7A /* NetworkError.swift */; };
 		8B5BC6602D56923600E8CC7A /* UserEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BC65F2D56923600E8CC7A /* UserEndPoint.swift */; };
 		8B5BC6622D56923D00E8CC7A /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BC6612D56923D00E8CC7A /* UserService.swift */; };
+		8B5BC69D2D56942700E8CC7A /* EndPointProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BC69C2D56942700E8CC7A /* EndPointProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		8B5BC65B2D5691E700E8CC7A /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		8B5BC65F2D56923600E8CC7A /* UserEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEndPoint.swift; sourceTree = "<group>"; };
 		8B5BC6612D56923D00E8CC7A /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		8B5BC69C2D56942700E8CC7A /* EndPointProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 		8B5BC6582D5691D700E8CC7A /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				8B5BC69C2D56942700E8CC7A /* EndPointProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 			files = (
 				8B5BC64E2D56902100E8CC7A /* User.swift in Sources */,
 				8B5BC65C2D5691E700E8CC7A /* NetworkError.swift in Sources */,
+				8B5BC69D2D56942700E8CC7A /* EndPointProtocol.swift in Sources */,
 				8B5BC6622D56923D00E8CC7A /* UserService.swift in Sources */,
 				8B5BC64A2D568FD400E8CC7A /* APIClient.swift in Sources */,
 				8B5BC6502D56909100E8CC7A /* Company.swift in Sources */,

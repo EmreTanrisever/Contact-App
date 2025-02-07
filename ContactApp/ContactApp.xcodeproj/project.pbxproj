@@ -19,6 +19,10 @@
 		8B1881D72D4C19FC00D2C4EA /* ContactAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1881D62D4C19FC00D2C4EA /* ContactAppUITests.swift */; };
 		8B1881D92D4C19FC00D2C4EA /* ContactAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1881D82D4C19FC00D2C4EA /* ContactAppUITestsLaunchTests.swift */; };
 		8B1882722D4C1AE700D2C4EA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1882712D4C1AE700D2C4EA /* HomeViewController.swift */; };
+		8B5BC69E2D56946C00E8CC7A /* ETCCommonKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B5BC68B2D5692B300E8CC7A /* ETCCommonKit.framework */; };
+		8B5BC69F2D56946C00E8CC7A /* ETCCommonKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B5BC68B2D5692B300E8CC7A /* ETCCommonKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8B5BC6A02D56946C00E8CC7A /* ETCNetworkKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B5BC6452D568FB500E8CC7A /* ETCNetworkKit.framework */; };
+		8B5BC6A12D56946C00E8CC7A /* ETCNetworkKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B5BC6452D568FB500E8CC7A /* ETCNetworkKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8B82CF352D4F8E3C00969218 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B82CF342D4F8E3C00969218 /* SplashViewController.swift */; };
 		8B82CF3D2D4F8E5400969218 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B82CF3C2D4F8E5400969218 /* SplashViewModel.swift */; };
 		8B82CF402D4F8E6E00969218 /* SplashTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B82CF3F2D4F8E6E00969218 /* SplashTableViewCell.swift */; };
@@ -93,6 +97,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				8B5BC69F2D56946C00E8CC7A /* ETCCommonKit.framework in Embed Frameworks */,
+				8B5BC6A12D56946C00E8CC7A /* ETCNetworkKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +141,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B5BC69E2D56946C00E8CC7A /* ETCCommonKit.framework in Frameworks */,
+				8B5BC6A02D56946C00E8CC7A /* ETCNetworkKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
