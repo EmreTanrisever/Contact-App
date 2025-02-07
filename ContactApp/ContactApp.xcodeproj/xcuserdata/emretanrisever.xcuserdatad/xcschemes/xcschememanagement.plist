@@ -7,7 +7,25 @@
 		<key>ContactApp.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>8B1881B12D4C19F900D2C4EA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8B1881C72D4C19FC00D2C4EA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8B1881D12D4C19FC00D2C4EA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
